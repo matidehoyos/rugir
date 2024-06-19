@@ -1,0 +1,47 @@
+.container {
+    background-color: violet;
+    padding: 100px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 1600px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    opacity: .7;
+    border-radius: 7px;
+}
+
+
+.caja {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.caja h3 {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+.caja p {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: #222;
+    letter-spacing: .4px;
+}
+
+.caja p span {
+    font-weight: 800;
+}
+

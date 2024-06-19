@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    background-color: violet;
+    background-color: #333;
     margin: 0;
     padding: 50px 0;
     display: flex;
@@ -15,7 +15,7 @@
 }
 
 .image {
-    width: 180px;
+    width: 250px;
     filter: drop-shadow(0px 0px 20px #000);
 }
 
@@ -30,7 +30,7 @@
 .caja p {
     padding: 0;
     font-size: 26px;
-    font-weight: 700;
-    color: #222;
+    font-weight: 600;
+    color: rgb(255, 255, 155);
     filter: drop-shadow(0px 0px 15px #000);
 }

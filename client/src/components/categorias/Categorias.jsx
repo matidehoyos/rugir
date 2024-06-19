@@ -3,12 +3,10 @@ import style from './Categorias.module.css'
 function Categorias() {
 
     const images = [
-        './simpsom.png',
-        './serie.png',
-        './diego.png',
-        './aldo.png',
-        './tx.png',
-        './racing.png',
+        './g1.png',
+        './g2.png',
+        './g5.png',
+        './g4.png',
       ];
       
 
