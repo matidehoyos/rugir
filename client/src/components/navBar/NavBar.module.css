@@ -1,18 +1,19 @@
 .container {
     width: auto;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 120px;
-    padding-bottom: 5px;
+    padding: 5px 120px;
     background-color: #333;
     border-bottom: 2px solid #fff;
+    z-index: 3000;
 }
 
 .logo {
     width: 120px;
     height: auto;
     padding: 0px;
+    padding-top: 7px;
 }
 
 .logo img {
@@ -22,37 +23,31 @@
     object-position: center;
 }
 
-.menu {
-    margin-left: 400px;
-}
 
 .menu ul {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+    width: auto;
   }
   
-  .menu ul li {
+  .menu li {
+    display: inline;
     list-style: none;
   }
   
-  .menu ul li a {
+  .menu a {
     text-decoration: none;
     color: violet;
     font-size: 17px;
     font-weight: 500;
     letter-spacing: .5px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    margin-right: 13px;
   }
   
-  .menu ul li a:hover {
-    color: rgba(255, 255, 168, 0.847);
+  .menu a:hover {
+    color: white;
   }
-
-.redes {
-    margin-left: 400px;
-}
 
 .redes ul {
     height: 100%;
@@ -68,7 +63,7 @@
   
   .redes ul li a {
     text-decoration: none;
-    color: rgba(255, 255, 168, 0.847);
+    color: violet;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: .5px;

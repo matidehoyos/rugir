@@ -6,8 +6,8 @@ const images = [
   './serie.png',
   './diego.png',
   './aldo.png',
-  './tx.png',
   './racing.png',
+  './tx.png',
 ];
 
 function Imagenes() {

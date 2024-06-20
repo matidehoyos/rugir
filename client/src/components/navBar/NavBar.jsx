@@ -7,21 +7,21 @@ function NavBar() {
           <div className={style.logo}>
                 <img src="./l.png" alt="Logo RugirMdq" />
           </div>
-        <div className={style.menu}>
+       {/*} <div className={style.menu}>
             <nav>
                     <ul>
                       <li><a href="#">Home</a></li>
-                      <li><a href="#about">nosotros</a></li>
-                      <li><a href="#contact">Contacto</a></li>
+                      <li><a href="#about">Nosotros</a></li>
+                      <li><a href='#contact'>Contacto</a> </li>
                     </ul>
               </nav>
-        </div>
+        </div> */}
         <div className={style.redes}>
             <nav>
                     <ul>
                       <li><a href=""><FaInstagram /></a> </li>
                       <li><a href=""><FaFacebook /></a></li>
-                      <li><a href=""><FaWhatsapp /></a></li>
+                      <li><a href="https://api.whatsapp.com/send?phone=542236351363" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a></li>
                     </ul>
               </nav>
         </div>

@@ -5,9 +5,42 @@
     flex-direction: column;
 }
 
+.flotante {
+    width: auto;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    border-radius: 10px;
+    background-color: #111;
+    z-index: 2000;
+    padding: 5px 10px;
+    padding-bottom: 13px;
+}
+
+.flotante:hover {
+    border: none;
+}
+
+.flotante a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.flotante a:hover {
+    color: #fff;
+}
+
+.what {
+    font-size: 28px;
+    color: green;
+    position: relative;
+    top: 5px;
+}
+
 .subcontainer {
     width: 100%;
-    height: calc(100vh - 140px);
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,17 +50,19 @@
 
 .caja {
     display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
 }
 
 .first {
     width: auto;
-    padding-top: 100px;
 }
 
 
 .titular {
     width: 100%;
-    padding: 140px 0px;
+    padding: 120px 0px;
+    padding-bottom: 140px;
     z-index: 100;
 }
 
@@ -37,7 +72,6 @@
     line-height: 68px;
     margin: 0;
     padding: 0;
-    padding-left: 120px;
     text-align: left;
     color: rgb(42, 42, 42);
     filter: drop-shadow(0px 0px 10px #fff);
@@ -50,7 +84,6 @@
     margin: 0;
     padding: 0;
     padding-top: 8px;
-    padding-left: 120px;
     color: violet;
     text-align: left;
     filter: drop-shadow(0px 0px 10px #fff);
@@ -66,34 +99,46 @@
     margin: 0;
     padding: 0;
     padding-top: 8px;
-    padding-left: 120px;
     color: rgb(68,68,68);
     text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 
 .imagenes {
     width: auto;
-    padding: 0px 20px;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 30px;
-    top: 60px;
+    left: 0px;
+    top: 0px;
 }
 
 .regalo {
     background-color: #333;
     margin: 0;
-    padding: 10px 0px;
-    padding-bottom: 60px;
+    padding: 60px 120px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
 
 .regalo h4 {
-    font-size: 28px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px #000;
     margin: 0;
     padding: 0;
+    color: rgb(255, 255, 146);
+    text-align: right;
+}
+
+.regalo img {
+    border-radius: 6px;
+    width: 280px;
+    filter: drop-shadow(70px 0px 30px #111);
 }
 
 

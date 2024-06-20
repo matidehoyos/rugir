@@ -1,9 +1,11 @@
+import { FaWhatsapp } from 'react-icons/fa'
 import Imagenes from '../imagenes/Imagenes'
 import style from './Header.module.css'
 
 function Header() {
     return (
         <div className={style.container}>
+            <button className={style.flotante}><a href="https://api.whatsapp.com/send?phone=542236351363" target="_blank" rel="noopener noreferrer">Hacenos tu consulta <FaWhatsapp className={style.what}/></a></button>
             <div className={style.subcontainer}>
                 <div className={style.caja}>
                     <div className={style.first}>
@@ -18,7 +20,8 @@ function Header() {
                     </div>
                 </div>
                 <div className={style.regalo}>
-                    <h4>EL REGALO PERFECTO NO EXIS...</h4>
+                    <h4>EL REGALO PERFECTO <br/>NO EXIS...</h4>
+                    <img src="./pika.png" alt="alfombra pikachu" />
                 </div>
             </div>
             </div>
