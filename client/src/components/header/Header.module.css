@@ -228,7 +228,6 @@
         text-align: left;
         color: rgb(42, 42, 42);
         text-shadow: 1px 1px 0 violet, -1px -1px 0 violet, 1px -1px 0 violet, -1px 1px 0 violet;
-        filter: drop-shadow(0px 0px 10px rgba(238, 130, 238, 0.567));
     }
     
     .amano {
@@ -238,16 +237,16 @@
         margin: 0;
         padding: 10px 0px;
         padding-top: 14px;
-        color: rgb(244, 89, 244);
+        color: violet;
         text-align: left;
         filter: drop-shadow(0px 0px 10px #fff);
-        text-shadow: 1.3px 1.3px 0 #333333, -1.3px -1.3px 0 #333333, 1.3px -1.3px 0 #333333, -1.3px 1.3px 0 #333333;
+        text-shadow: 1px 1px 0 #333333, -1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333;
     }
     
     .personalizados {
         width: auto;
-        font-size: 22px;
-        font-weight: 500;
+        font-size: 18px;
+        font-weight: 700;
         line-height: 34px;
         text-align: left;
         margin: 0;
