@@ -1,0 +1,36 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    animation: display 2.5s ease-out;
+    animation-fill-mode: forwards;
+    background-color: #151515;
+    padding: 0;
+    margin: 0;
+    }
+
+    .container img {
+        object-fit: cover;
+    }
+    
+    
+    @keyframes display {
+      0% {
+        opacity: 1;
+        z-index: 2000;
+      }
+      99% {
+        opacity: 1;
+        z-index: 2000;
+      }
+      100% {
+        opacity: 0;
+        z-index: -2000;
+      }
+    }  
+  
