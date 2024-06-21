@@ -8,7 +8,7 @@
 
 .image {
     width: 50%;
-    background-image: url('./galgo.png');
+    background-image: url('../../../public/galgo.png');
     background-size: cover;
     background-position: center;
     border-radius: 5px;
