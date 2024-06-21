@@ -117,6 +117,10 @@
         display: none;
     }
 
+    .mov {
+        display: none;
+    }
+
     .imagenes {
         width: 40%;
         padding: 0;
@@ -231,6 +235,10 @@
         text-shadow: 1px 1px 0 violet, -1px -1px 0 violet, 1px -1px 0 violet, -1px 1px 0 violet;
         filter: none;
     }
+
+    .mov {
+        display: block;
+    }
     
     .amano {
         font-size: 26px;
@@ -286,13 +294,7 @@
     }
 
     .imagenes {
-        width: auto;
-        padding: 0;
-        margin: 0;
-        margin-top: 42px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: none;
     }
     
     .regalo {
