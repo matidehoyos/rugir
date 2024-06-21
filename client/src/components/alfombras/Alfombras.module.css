@@ -19,7 +19,7 @@
     
     
     .container img {
-        width: 47%;
+        width: 60%;
         object-fit: scale-down;
         filter: drop-shadow(20px 0px 20px #000);
         margin-right: 40px;
