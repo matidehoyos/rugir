@@ -1,19 +1,26 @@
 .container {
-    display: flex;
-    flex-wrap: nowrap;
-    width: auto;
-    padding: 60px 5%;
-    background-color: #111;
-    overflow-x: scroll;
-}
-
-.container::-webkit-scrollbar {
     display: none;
 }
 
-
-.container img {
-    width: 100%;
-    object-fit: scale-down;
-    filter: drop-shadow(20px 0px 20px #000);
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: nowrap;
+        width: auto;
+        padding: 60px 5%;
+        background-color: #111;
+        overflow-x: scroll;
+    }
+    
+    .container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    
+    .container img {
+        width: 100%;
+        object-fit: scale-down;
+        filter: drop-shadow(20px 0px 20px #000);
+    }
+    
 }

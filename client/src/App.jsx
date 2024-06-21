@@ -9,8 +9,7 @@ import Header from './components/header/Header'
 import NavBar from './components/navBar/NavBar'
 import Ubicacion from './components/ubicacion/Ubicacion'
 
-function App() {
-  const screenWidth = window.innerWidth; 
+function App() { 
 
 
   return (
@@ -20,7 +19,7 @@ function App() {
       <Encargo />
       <Categorias />
       <Ubicacion />
-      {screenWidth < 768 && <Alfombras />}
+      <Alfombras />
       <About />
       <Contact />
       <Footer />

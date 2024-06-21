@@ -3,7 +3,6 @@ import style from "./Alfombras.module.css"
 
 const images = [
   './simpsom.png',
-  './pika.png',
   './serie.png',
   './diego.png',
   './aldo.png',

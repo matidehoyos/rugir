@@ -6,7 +6,9 @@
     align-items: stretch;
 }
 
-.image {
+.image {display: none;}
+
+.imag {
     width: 50%;
     background-image: url('../../../public/galgo.png');
     background-size: cover;
@@ -60,7 +62,12 @@
         background-color: #111;
     }
     
+    .imag {
+        display: none;
+    }
+
     .image {
+        display: block;
         position: absolute;
         width: 100%;
         background-image: none;
@@ -68,7 +75,9 @@
 
     .image img {
         width: 100%;
+        max-height: 520px;
         opacity: .9;
+        object-fit: cover;
     }
     
     .caja {
