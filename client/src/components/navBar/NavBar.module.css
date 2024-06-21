@@ -76,33 +76,36 @@
 @media (max-width: 768px) {
   .container {
     width: auto;
-    height: 50px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 3%;
+    padding: 10px 4%;
     background-color: #333;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid violet;
 }
 
 .logo {
     width: auto;
     height: auto;
     padding: 0px;
-    padding-top: 6px;
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
-    width: 80px;
+    width: 120px;
     object-fit: cover;
     object-position: center;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 30%;
 }
 
 .redes ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 9px;
+    gap: 12px;
   }
   
   .redes ul li {
@@ -114,7 +117,7 @@
   .redes ul li a {
     text-decoration: none;
     color: violet;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .redes ul li a:hover {

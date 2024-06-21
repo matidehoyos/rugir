@@ -104,6 +104,10 @@
         color: #333;
         text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
     }
+
+    .simp {
+        display: none;
+    }
     
     .imagenes {
         width: 40%;
@@ -203,7 +207,7 @@
         width: auto;
         display: flex;
         flex-direction: column;
-        padding: 0px 3%;
+        padding: 0px 4%;
         padding-bottom: 60px;
     }
     
@@ -226,41 +230,51 @@
         margin: 0;
         padding: 0;
         text-align: left;
-        color: rgb(42, 42, 42);
+        color: #111;
         text-shadow: 1px 1px 0 violet, -1px -1px 0 violet, 1px -1px 0 violet, -1px 1px 0 violet;
         filter: drop-shadow(0px 0px 10px transparent);
     }
     
     .amano {
-        font-size: 26px;
-        font-weight: 600;
+        font-size: 28px;
+        font-weight: 700;
         line-height: 0;
         margin: 0;
         padding: 10px 0px;
-        padding-top: 14px;
+        padding-top: 24px;
         color: violet;
-        text-align: left;
+        text-align: center;
         filter: drop-shadow(0px 0px 10px transparent);
-        text-shadow: 1px 1px 0 #333333, -1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333;
+        text-shadow: 1px 1px 0 transparent, -1px -1px 0 transparent, 1px -1px 0 transparent, -1px 1px 0 transparent;
     }
     
     .personalizados {
         width: auto;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 700;
         line-height: 34px;
-        text-align: left;
+        text-align: center;
         margin: 0;
         padding: 0;
+        padding-top: 5px;
         color: #333;
         text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    }
+
+    .simp {
+        display: block;
+        position: relative;
+        left: 50%;
+        top: -25px;
+        width: 40%;
+        filter: drop-shadow(50px -20px 20px #3e3e3e);
     }
     
     .imagenes {
         width: auto;
         padding: 0;
         margin: 0;
-        margin-top: 30px;
+        margin-top: 42px;
         display: flex;
         justify-content: center;
         align-items: center;
