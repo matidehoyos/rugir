@@ -40,6 +40,6 @@
 .image {
   width: 25%; 
   object-fit: scale-down;
-  filter: drop-shadow(20px 10px 20px #000);
+  filter: drop-shadow(20px 10px 20px #000000b3);
 }
 }
