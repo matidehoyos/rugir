@@ -8,7 +8,7 @@
         flex-wrap: nowrap;
         width: auto;
         padding: 30px 5%;
-        padding-bottom: 110px;
+        padding-bottom: 30px;
         background-color: #111;
         overflow-x: scroll;
     }
