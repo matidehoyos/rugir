@@ -7,7 +7,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    animation: display 2.5s ease-out;
+    animation: display 1.8s ease-out;
     animation-fill-mode: forwards;
     background-color: #151515;
     padding: 0;
