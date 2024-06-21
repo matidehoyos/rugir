@@ -64,8 +64,9 @@
     .image {
         display: block;
         position: absolute;
-        width: 100%;
+        width: 92%;
         opacity: .8;
+        margin: 0px auto;
     }
     
     .caja {
@@ -77,6 +78,7 @@
         justify-content: start;
         margin: 0;
         padding: 5px 4%;
+        overflow-x: hidden;
     }
     
     .caja h3 {
