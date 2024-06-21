@@ -13,14 +13,14 @@ function Categorias() {
   return (
     <div className={style.container}>
         <div className={style.caja}>
-            <p>DEPORTES</p>
-            <p>CINE</p>
-            <p>AUTOS</p>
-            <p>ANIMALES</p>
-            <p>ESCUDOS</p>
-            <p>PERSONAJES</p>
-            <p>FRASES</p>
-            <p>NOMBRES</p>
+            <span className={style.categoria}>DEPORTES</span>
+            <span className={style.categoria}>CINE</span>
+            <span className={style.categoria}>AUTOS</span>
+            <span className={style.categoria}>ANIMALES</span>
+            <span className={style.categoria}>ESCUDOS</span>
+            <span className={style.categoria}>PERSONAJES</span>
+            <span className={style.categoria}>FRASES</span>
+            <span className={style.categoria}>NOMBRES</span>
         </div>
         <div className={style.cajaImg}>
             {

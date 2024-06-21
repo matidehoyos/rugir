@@ -5,6 +5,10 @@
         display: flex;
         flex-direction: column;
     }
+
+    .flotmovil {
+        display: none;
+    }
     
     .flotante {
         width: auto;
@@ -109,6 +113,10 @@
         display: none;
     }
     
+    .rac {
+        display: none;
+    }
+
     .imagenes {
         width: 40%;
         padding: 0;
@@ -159,12 +167,17 @@
         display: flex;
         flex-direction: column;
     }
-    
+
     .flotante {
+        display: none;
+    }
+    
+    .flotmovil {
+        display: block;
         width: auto;
         position: fixed;
-        right: 20px;
-        bottom: 40px;
+        right: 10px;
+        bottom: 20px;
         border-radius: 10px;
         background-color: #111;
         z-index: 2000;
@@ -172,25 +185,9 @@
         padding-bottom: 13px;
     }
     
-    .flotante:hover {
-        border: none;
-    }
-    
-    .flotante a {
-        color: #fff;
-        font-size: 20px;
-        font-weight: 300;
-    }
-    
-    .flotante a:hover {
-        color: #fff;
-    }
-    
     .what {
-        font-size: 28px;
+        font-size: 30px;
         color: green;
-        position: relative;
-        top: 5px;
     }
     
     .subcontainer {
@@ -208,7 +205,7 @@
         display: flex;
         flex-direction: column;
         padding: 0px 4%;
-        padding-bottom: 60px;
+        padding-bottom: 30px;
     }
     
     .first {
@@ -232,20 +229,20 @@
         text-align: left;
         color: #111;
         text-shadow: 1px 1px 0 violet, -1px -1px 0 violet, 1px -1px 0 violet, -1px 1px 0 violet;
-        filter: drop-shadow(0px 0px 10px transparent);
+        filter: drop-shadow(0px 0px 10px #333);
     }
     
     .amano {
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 700;
         line-height: 0;
         margin: 0;
-        padding: 10px 0px;
-        padding-top: 24px;
+        padding: 50px 0px;
+        padding-bottom: 10px;
         color: violet;
-        text-align: center;
-        filter: drop-shadow(0px 0px 10px transparent);
-        text-shadow: 1px 1px 0 transparent, -1px -1px 0 transparent, 1px -1px 0 transparent, -1px 1px 0 transparent;
+        text-align: left;
+        filter: none;
+        text-shadow: 1px 1px 0 #333, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333;
     }
     
     .personalizados {
@@ -253,23 +250,39 @@
         font-size: 20px;
         font-weight: 700;
         line-height: 34px;
-        text-align: center;
+        text-align: left;
         margin: 0;
         padding: 0;
-        padding-top: 5px;
         color: #333;
         text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
     }
 
     .simp {
-        display: block;
-        position: relative;
-        left: 50%;
-        top: -25px;
-        width: 40%;
-        filter: drop-shadow(50px -20px 20px #3e3e3e);
+        display: flex;
+        justify-content: start;
+        padding: 20px 0px;
+        gap: 10px;
+    }
+
+    .simp img {
+        width: 30%;
+        object-fit: scale-down;
+        filter: drop-shadow(30px 0px 20px rgba(0,0,0,.6));
     }
     
+    .rac {
+        display: flex;
+        justify-content: start;
+        padding: 20px 0px;
+        gap: 10px;
+    }
+
+    .rac img {
+        width: 30%;
+        object-fit: scale-down;
+        filter: drop-shadow(30px 0px 20px rgba(0,0,0,.6));
+    }
+
     .imagenes {
         width: auto;
         padding: 0;
@@ -283,16 +296,16 @@
     .regalo {
         background-color: #333;
         margin: 0;
-        padding: 40px 3%;
-        padding-bottom: 40px;
+        padding: 60px 4%;
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         gap: 10px;
     }
     
     .regalo h4 {
-        font-size: 20px;
+        width: 60%;
+        font-size: 18px;
         font-weight: 600;
         line-height: 94%;
         text-shadow: 0px 0px 5px #000;
@@ -306,7 +319,7 @@
         position: relative;
         left: -25px;
         width: 40%;
-        filter: drop-shadow(30px 10px 30px #000);
+        filter: drop-shadow(22px 0px 20px #3e3e3e);
     }
 
     }
