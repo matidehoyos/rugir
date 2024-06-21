@@ -58,6 +58,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
     
     .image {
@@ -75,7 +76,7 @@
         align-items: start;
         justify-content: start;
         margin: 0;
-        padding: 0 4%;
+        padding: 5px 4%;
     }
     
     .caja h3 {
