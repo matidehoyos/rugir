@@ -229,7 +229,7 @@
         text-align: left;
         color: #111;
         text-shadow: 1px 1px 0 violet, -1px -1px 0 violet, 1px -1px 0 violet, -1px 1px 0 violet;
-        filter: drop-shadow(0px 0px 10px #333);
+        filter: none;
     }
     
     .amano {
@@ -260,8 +260,9 @@
     .simp {
         display: flex;
         justify-content: start;
-        padding: 20px 0px;
+        padding: 30px 0px;
         gap: 10px;
+        margin-top: 25px;
     }
 
     .simp img {
@@ -273,7 +274,8 @@
     .rac {
         display: flex;
         justify-content: start;
-        padding: 20px 0px;
+        padding: 30px 0px;
+        margin-top: 20px;
         gap: 10px;
     }
 
@@ -305,7 +307,7 @@
     
     .regalo h4 {
         width: 60%;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
         line-height: 94%;
         text-shadow: 0px 0px 5px #000;
@@ -317,8 +319,8 @@
     
     .regalo img {
         position: relative;
-        left: -25px;
-        width: 40%;
+        left: -5px;
+        width: 46%;
         filter: drop-shadow(22px 0px 20px #3e3e3e);
     }
 

@@ -76,31 +76,29 @@
 
 @media (max-width: 768px) {
     .container {
-        padding: 60px 4%;
-        padding-bottom: 40px;
+        padding: 0px 4%;
         margin: 0;
         background-color: #262626;
         width: auto;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: start;
     }
     
     .image {
-        width: 30%;
+        width: 40%;
     }
     
     .tigre {
         opacity: .08;
-        width: 186%;
-        object-fit: cover;
+        object-fit: scale-down;
         border-bottom-left-radius: 20%;
         position: relative;
-        top: 40px;
+        top: 20px;
     }
     
     .txt {
-        width: auto;
+        width: 100%;
         margin: 0;
     }
     
@@ -109,17 +107,16 @@
         margin: 0;
         padding: 0;
         text-align: right;
-        font-size: 5vw;
+        font-size: 30px;
         font-weight: 600;
-        line-height: 110%;
+        line-height: 32px;
         color: violet;
         filter: drop-shadow(0px 0px 10px #222);
         text-shadow: 1px 1px 0 #222, -1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222;
-    
     }
     
     .alf {
-        font-size: 4.4vw;
+        font-size: 34px;
         color: rgb(255, 255, 167);
     }
     
@@ -127,10 +124,11 @@
         margin-top: 6%;
         display: flex;
         justify-content: end;
+        padding-bottom: 30px;
     }
     
     .enlace a {
-        font-size: 1.3vw;
+        font-size: 16px;
         color: violet;
         padding: 8px 16px;
         border-radius: 4px;

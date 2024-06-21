@@ -118,11 +118,11 @@
   
   .redes ul li a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 255, 154);
     font-size: 22px;
 }
 
 .redes ul li a:hover {
-      color: #fff;
+      color: rgb(255, 255, 154);
   }
 }
