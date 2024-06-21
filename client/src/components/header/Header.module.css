@@ -189,7 +189,21 @@
         z-index: 2000;
         padding: 5px 10px;
         padding-bottom: 13px;
+        animation: opac 8s linear 1;
+        animation-fill-mode: forwards;
     }
+       
+    @keyframes opac {
+        0% {
+          opacity: 0;
+        }
+        90% {
+            opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }  
     
     .what {
         font-size: 30px;
