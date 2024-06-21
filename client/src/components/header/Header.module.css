@@ -178,8 +178,8 @@
         position: fixed;
         right: 10px;
         bottom: 20px;
-        border-radius: 10px;
-        background-color: #111;
+        border-radius: 50%;
+        background-color:rgba(153, 205, 50, 0.656);
         z-index: 2000;
         padding: 5px 10px;
         padding-bottom: 13px;
@@ -300,14 +300,14 @@
         margin: 0;
         padding: 60px 4%;
         display: flex;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
         gap: 10px;
     }
     
     .regalo h4 {
         width: 60%;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 600;
         line-height: 94%;
         text-shadow: 0px 0px 5px #000;
