@@ -51,22 +51,24 @@
 
 @media (max-width: 768px) {
     .container {
-        background-color: transparent;
-        background-size: cover;
-        background-position: center;
-        padding: 100px 4%;
+        padding: 100px 0;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
+        box-sizing: border-box;
+        background-color: #333;
     }
     
     .image {
-        display: block;
         position: absolute;
-        width: 92%;
-        opacity: .8;
-        margin: 0px auto;
+        width: 100%;
+        background-image: none;
+    }
+
+    .image img {
+        width: 100%;
+        opacity: .9;
     }
     
     .caja {
