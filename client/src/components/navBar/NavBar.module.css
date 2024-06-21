@@ -21,6 +21,8 @@
       height: 50px;
       object-fit: cover;
       object-position: center;
+      border-bottom-left-radius: 30%;
+      border-top-left-radius: 30%;
   }
   
   .menu ul {
