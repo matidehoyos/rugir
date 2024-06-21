@@ -144,3 +144,153 @@
 
 
 
+
+
+
+    @media (max-width: 768px) {
+        
+    .container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .flotante {
+        width: auto;
+        position: fixed;
+        right: 20px;
+        bottom: 40px;
+        border-radius: 10px;
+        background-color: #111;
+        z-index: 2000;
+        padding: 5px 10px;
+        padding-bottom: 13px;
+    }
+    
+    .flotante:hover {
+        border: none;
+    }
+    
+    .flotante a {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .flotante a:hover {
+        color: #fff;
+    }
+    
+    .what {
+        font-size: 28px;
+        color: green;
+        position: relative;
+        top: 5px;
+    }
+    
+    .subcontainer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(255, 255, 154);
+        padding: 0;
+    }
+    
+    .caja {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 3%;
+        padding-bottom: 60px;
+    }
+    
+    .first {
+        width: 100%;
+    }
+    
+    
+    .titular {
+        width: auto;
+        padding: 60px 0px;
+        padding-bottom: 0px;
+        z-index: 100;
+    }
+    
+    .titulo {
+        font-size: 44px;
+        font-weight: 750;
+        line-height: 82%;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        color: rgb(42, 42, 42);
+        text-shadow: 1px 1px 0 violet, -1px -1px 0 violet, 1px -1px 0 violet, -1px 1px 0 violet;
+        filter: drop-shadow(0px 0px 10px rgba(238, 130, 238, 0.567));
+    }
+    
+    .amano {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 0;
+        margin: 0;
+        padding: 10px 0px;
+        padding-top: 14px;
+        color: rgb(244, 89, 244);
+        text-align: left;
+        filter: drop-shadow(0px 0px 10px #fff);
+        text-shadow: 1.3px 1.3px 0 #333333, -1.3px -1.3px 0 #333333, 1.3px -1.3px 0 #333333, -1.3px 1.3px 0 #333333;
+    }
+    
+    .personalizados {
+        width: auto;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 34px;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    }
+    
+    .imagenes {
+        width: auto;
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .regalo {
+        background-color: #333;
+        margin: 0;
+        padding: 60px 7%;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .regalo h4 {
+        font-size: 2.7vw;
+        font-weight: 700;
+        line-height: 90%;
+        text-shadow: 1px 1px 5px #000;
+        margin: 0;
+        padding: 0;
+        color: rgb(255, 255, 146);
+        text-align: right;
+    }
+    
+    .regalo img {
+        width: 24%;
+        filter: drop-shadow(70px 0px 30px #111);
+    }
+
+    }
