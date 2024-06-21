@@ -235,11 +235,35 @@
         color: #111;
         text-shadow: 1px 1px 0 violet, -1px -1px 0 violet, 1px -1px 0 violet, -1px 1px 0 violet;
         filter: none;
+        animation: izquierda 3.2s ease-in 1;
+        animation-fill-mode: forwards;
+        position: relative;
     }
+       
+    @keyframes izquierda {
+        0% {
+          left: -800px;
+        }
+        100% {
+          left: 0;
+        }
+      }  
 
     .mov {
         display: block;
+        animation: derecha 3.2s ease-in 1;
+        animation-fill-mode: forwards;
+        position: relative;
     }
+       
+    @keyframes derecha {
+        0% {
+          right: -1000px;
+        }
+        100% {
+          right: 0;
+        }
+      }  
     
     .amano {
         font-size: 26px;
@@ -252,6 +276,9 @@
         text-align: left;
         filter: none;
         text-shadow: 1px 1px 0 #333, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333;
+        animation: top 3.2s ease-in 1;
+        animation-fill-mode: forwards;
+        position: relative;
     }
     
     .personalizados {
@@ -264,35 +291,19 @@
         padding: 0;
         color: #333;
         text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+        animation: top 3.2s ease-in 1;
+        animation-fill-mode: forwards;
+        position: relative;
     }
-
-    .simp {
-        display: flex;
-        justify-content: start;
-        padding: 30px 0px;
-        gap: 10px;
-        margin-top: 25px;
-    }
-
-    .simp img {
-        width: 30%;
-        object-fit: scale-down;
-        filter: drop-shadow(30px 0px 20px rgba(0,0,0,.6));
-    }
-    
-    .rac {
-        display: flex;
-        justify-content: start;
-        padding: 30px 0px;
-        margin-top: 20px;
-        gap: 10px;
-    }
-
-    .rac img {
-        width: 30%;
-        object-fit: scale-down;
-        filter: drop-shadow(30px 0px 20px rgba(0,0,0,.6));
-    }
+       
+    @keyframes top {
+        0% {
+          top: 200px;
+        }
+        100% {
+          top: 0;
+        }
+      }  
 
     .imagenes {
         display: none;
@@ -310,7 +321,7 @@
     
     .regalo h4 {
         width: 70%;
-        font-size: 24px;
+        font-size: 28px;
         font-weight: 600;
         line-height: 94%;
         text-shadow: 0px 0px 5px #000;
@@ -324,6 +335,16 @@
         position: relative;
         width: 50%;
         filter: drop-shadow(22px 0px 20px #3e3e3e);
-    }
-
+        position: relative;
+        animation: vibrar 0.5s ease infinite alternate;
+      }
+      
+      @keyframes vibrar {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(5px);
+        }
+      }
     }
