@@ -85,6 +85,7 @@
     padding: 10px 4%;
     background-color: #222;
     border-bottom: none;
+    box-shadow: 0px 0px 22px rgba(0, 0, 0, .6);
     animation: top 2.85s .5s ease-out 1;
     animation-fill-mode: forwards;
     position: relative;
