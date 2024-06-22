@@ -84,7 +84,7 @@
     align-items: center;
     padding: 10px 4%;
     background-color: #222;
-    border-bottom: 2px solid violet;
+    border-bottom: none;
     animation: top 2.85s .5s ease-out 1;
     animation-fill-mode: forwards;
     position: relative;
