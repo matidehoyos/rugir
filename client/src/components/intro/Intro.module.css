@@ -1,21 +1,23 @@
 .container {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: start;
     align-items: center;
-    animation: display 1.6s 1.8s linear;
+    animation: display 1.6s 1s linear;
     animation-fill-mode: forwards;
     background-color: #151515;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
     z-index: 2000;
+    top: -200px;
     }
 
     .container img {
         object-fit: cover;
+        width: 50%;
     }
     
     
@@ -27,7 +29,50 @@
         opacity: 1;
       }
       100% {
-        left: -800px;
+        left: -1800px;
       }
     }  
+
+
+
+
+
+
+
+
+    @media (max-width: 768px) {
+      .container {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        animation: display 1.6s 1.8s linear;
+        animation-fill-mode: forwards;
+        background-color: #151515;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        z-index: 2000;
+        }
+    
+        .container img {
+            object-fit: cover;
+        }
+        
+        
+        @keyframes display {
+          0% {
+            left: 0;
+          }
+          96% {
+            opacity: 1;
+          }
+          100% {
+            left: -800px;
+          }
+        }  
+      
+    }
   
