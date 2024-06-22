@@ -58,12 +58,14 @@
     padding: 8px 16px;
     border-radius: 4px;
     border: 1px solid violet;
+    filter: drop-shadow(0px 30px 40px violet);
     text-decoration: none;
 }
 
 .enlace a:hover {
-    color: violet;
-    background-color: transparent;
+    color: #222;
+    padding: 8px 16px;
+    background-color: rgb(255, 255, 138);
     border: 1px solid violet;
 }
 
@@ -134,12 +136,27 @@
         border-radius: 4px;
         border: 1px solid violet;
         filter: drop-shadow(0px 40px 20px violet);
+        animation: shadow 10s linear infinite;
+    }
+    
+    @keyframes shadow {
+        0% {
+            filter: drop-shadow(10px -10px 10px violet);
+        }
+        25% {
+            filter: drop-shadow(-10px -10px 10px violet);
+        }
+        75% {
+            filter: drop-shadow(-10px 10px 10px violet);
+        }
+        100% {
+            filter: drop-shadow(10px 10px 10px violet);
+        }
+    }
     }
     
     .enlace a:hover {
-        color: #222;
-        padding: 8px 16px;
-        background-color: rgb(255, 255, 138);
+        color: violet;
+        background-color: transparent;
         border: 1px solid violet;
     }
-}
