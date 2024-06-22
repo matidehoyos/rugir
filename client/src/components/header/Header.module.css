@@ -250,7 +250,7 @@
         color: #111;
         text-shadow: 1px 1px 0 violet, -1px -1px 0 violet, 1px -1px 0 violet, -1px 1px 0 violet;
         filter: none;
-        animation: izquierda 2.1s linear 1;
+        animation: izquierda 2.3s .3s linear 1;
         animation-fill-mode: forwards;
         position: relative;
     }
@@ -266,7 +266,7 @@
 
     .mov {
         display: block;
-        animation: derecha 2.1s linear 1;
+        animation: derecha 2.3s .3s linear 1;
         animation-fill-mode: forwards;
         position: relative;
     }
@@ -291,7 +291,7 @@
         text-align: left;
         filter: none;
         text-shadow: 1px 1px 0 #333, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333;
-        animation: top 2.1s linear 1;
+        animation: top 2.9s .5s linear 1;
         animation-fill-mode: forwards;
         position: relative;
     }
@@ -306,7 +306,7 @@
         padding: 0;
         color: #333;
         text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-        animation: top 2.1s linear 1;
+        animation: top 2.9s .5s linear 1;
         animation-fill-mode: forwards;
         position: relative;
     }

@@ -5,12 +5,13 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    animation: display 1.8s ease-out;
+    animation: display 1.6s 1.8s linear;
     animation-fill-mode: forwards;
     background-color: #151515;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    z-index: 2000;
     }
 
     .container img {
@@ -21,15 +22,12 @@
     @keyframes display {
       0% {
         left: 0;
-        z-index: 2000;
       }
-      50% {
-        opacity: 0;
-        z-index: 2000;
+      96% {
+        opacity: 1;
       }
       100% {
         left: -800px;
-        z-index: -2000;
       }
     }  
   
