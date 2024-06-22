@@ -1,8 +1,8 @@
 .container {
     position: absolute;
     width: 100vw;
-    height: auto;
-    display: flex;
+    min-height: 100vh;
+    display: none;
     justify-content: start;
     align-items: center;
     animation: display 1.6s 1s linear;
@@ -13,11 +13,14 @@
     overflow-x: hidden;
     z-index: 2000;
     top: -200px;
+    overflow: visible;
     }
 
     .container img {
         object-fit: cover;
-        width: 50%;
+        width: 40%;
+        position: relative;
+        top: 100px;
     }
     
     
@@ -55,10 +58,17 @@
         margin: 0;
         overflow-x: hidden;
         z-index: 2000;
-        }
-    
-        .container img {
-            object-fit: cover;
+      }
+
+      .container::-webkit-scrollbar {
+        display: none;
+      }
+      
+      .container img {
+        object-fit: cover;
+        width: 86%;
+        position: relative;
+        top: 100px;
         }
         
         
