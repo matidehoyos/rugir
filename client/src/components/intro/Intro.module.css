@@ -12,7 +12,7 @@
         align-items: center;
         animation: display 1.6s 1.8s linear;
         animation-fill-mode: forwards;
-        background-color: #151515;
+        background-color: #222;
         padding: 0;
         margin: 0;
         overflow-x: hidden;
@@ -25,9 +25,7 @@
       
       .container img {
         object-fit: cover;
-        width: 86%;
-        position: relative;
-        top: 100px;
+        width: 100%;
         }
         
         
