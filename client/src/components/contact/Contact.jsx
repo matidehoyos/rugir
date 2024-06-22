@@ -10,7 +10,6 @@ function Contact() {
             <nav>
                     <ul>
                       <li><a target="_blank" href='https://www.instagram.com/rugirmdq/'><FaInstagram /></a> </li>
-                      <li><a href=""><FaFacebook /></a></li>
                       <li><a href="https://api.whatsapp.com/send?phone=542236351363" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a></li>
                     </ul>
               </nav>
