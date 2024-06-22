@@ -59,22 +59,6 @@
     border-radius: 4px;
     border: 1px solid violet;
     text-decoration: none;
-    animation: shadow 10s linear infinite;
-}
-
-@keyframes shadow {
-    0% {
-        filter: drop-shadow(10px -10px 15px violet);
-    }
-    25% {
-        filter: drop-shadow(10px -10px 15px violet);
-    }
-    0% {
-        filter: drop-shadow(-10px 10px 15px violet);
-    }
-    0% {
-        filter: drop-shadow(-10px 10px 15px violet);
-    }
 }
 
 .enlace a:hover {

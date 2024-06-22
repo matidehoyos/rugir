@@ -10,7 +10,7 @@ function Encargo() {
              <p>    <span className={style.idea}>CONTANOS TU IDEA</span> <br/><span className={style.env}>O ENVIANOS LA IMAGEN</span>  
                     <br/> <span className={style.alfombra}>Y LA CONVERTIMOS</span> <br/><span className={style.alf}>  EN ALFOMBRA </span>
             </p>
-            <div className={style.enlace}><a href="">CONTACTANOS</a></div> 
+            <div className={style.enlace}><a href="https://www.instagram.com/rugirmdq/">Contáctanos</a></div> 
         </div>
     </div>
   )
