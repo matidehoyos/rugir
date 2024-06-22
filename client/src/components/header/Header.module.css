@@ -257,7 +257,7 @@
        
     @keyframes izquierda {
         0% {
-          left: -800px;
+          left: -100px;
         }
         100% {
           left: 0;
@@ -273,7 +273,7 @@
        
     @keyframes derecha {
         0% {
-          right: -1000px;
+          right: -100px;
         }
         100% {
           right: 0;
@@ -313,7 +313,7 @@
        
     @keyframes top {
         0% {
-          top: 200px;
+          top: 100px;
         }
         100% {
           top: 0;
@@ -351,15 +351,16 @@
         width: 50%;
         filter: drop-shadow(22px 0px 20px #3e3e3e);
         position: relative;
-        animation: vibrar 0.5s ease infinite alternate;
+        animation: vibrar 0.1s ease-in infinite alternate;
       }
       
       @keyframes vibrar {
         0% {
-          transform: translateX(0);
+            transform: translateX(-1px);
+            ;
         }
         100% {
-          transform: translateX(5px);
+            transform: translateX(1px);
         }
       }
     }
