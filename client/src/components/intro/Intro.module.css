@@ -1,7 +1,5 @@
 .container {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -22,15 +20,15 @@
     
     @keyframes display {
       0% {
-        opacity: 1;
+        left: 0;
         z-index: 2000;
       }
-      90% {
-        opacity: 1;
+      50% {
+        opacity: 0;
         z-index: 2000;
       }
       100% {
-        opacity: 0;
+        left: -800px;
         z-index: -2000;
       }
     }  
