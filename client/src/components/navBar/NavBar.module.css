@@ -83,8 +83,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 4%;
-    background-image: linear-gradient(to right, #222 37%, #444, #222);
-    border-bottom: 0.3px solid rgba(255, 255, 137, 0.655);
+    background-image: linear-gradient(to right, #222 37%, #282828, #222);
+    border-bottom: 0.3px solid rgba(255, 255, 137, 0.393);
     box-shadow: 0px 0px 30px rgba(0, 0, 0, .8);
     animation: top 2.85s .5s ease-out 1;
     animation-fill-mode: forwards;
