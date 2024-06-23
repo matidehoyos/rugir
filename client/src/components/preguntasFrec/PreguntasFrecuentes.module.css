@@ -1,0 +1,55 @@
+.container {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+}
+.container {
+    display: block;
+   width: auto;
+   padding: 40px 4%;
+   padding-top: 0;
+   margin: 0;
+   background-color: #111;
+  }
+  
+  .titulo {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(256,256,256,.8);
+    text-align: left;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .acordeon {
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+  
+  .pregunta {
+   width: 100%;
+   color: rgb(255, 255, 119);
+   background-color: transparent;
+   padding: 0;
+   margin: 0;
+   margin-bottom: 10px;
+   border: none;
+   text-align: left;
+   font-size: 18px;
+   font-weight: 550;
+}
+
+.respuesta {
+    width: 80%;
+    color: rgba(256, 256,256,.8);
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    text-align: left;
+    font-size: 17px;
+    line-height: 21px;
+}
+  
