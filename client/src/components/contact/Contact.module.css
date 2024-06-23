@@ -53,14 +53,13 @@
 
 @media (max-width: 768px) {
     .container {
-        padding: 80px 4%;
-        padding-top: 0px;
+        padding: 60px 4%;
     }
     
     .container h3 {
         font-size: 26px;
         font-weight: 600;
-        color: #fff;
+        color: violet;
         filter: drop-shadow(0px 0px 3px #000);
         margin: 0;
     }

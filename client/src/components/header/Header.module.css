@@ -155,7 +155,20 @@
 .regalo img {
     width: 24%;
     filter: drop-shadow(70px 0px 30px #111);
-}
+    position: relative;
+    animation: vibrar 0.1s ease-in infinite alternate;
+  }
+  
+  @keyframes vibrar {
+    0% {
+        transform: translateX(-3px);
+        ;
+    }
+    100% {
+        transform: translateX(3px);
+    }
+  }
+
 
 
 

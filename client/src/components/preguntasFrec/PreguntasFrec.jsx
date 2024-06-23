@@ -50,7 +50,7 @@ const PreguntasFrecuentes = () => {
   const toggleRespuesta = (id) => {
     setPreguntas((prevPreguntas) =>
       prevPreguntas.map((pregunta) =>
-        pregunta.id === id ? { ...pregunta, abierto: !pregunta.abierto } : pregunta
+        pregunta.id === id ? { ...pregunta, abierto: !pregunta.abierto } : { ...pregunta, abierto: false }
       )
     );
   };

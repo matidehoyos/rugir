@@ -3,7 +3,7 @@ import style from './About.module.css'
 function About() {
   return (
     <div className={style.container} id='about'>
-            <div className={style.image}><img src="./giyo.png" alt="" /></div>
+            <div className={style.image}><img src="./g2.png" alt="" /></div>
             <div className={style.imag}></div>
             <div className={style.caja}>
                 <h3>Sobre nosotros</h3>
